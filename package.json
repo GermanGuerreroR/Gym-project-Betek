@@ -1,0 +1,22 @@
+{
+  "name": "gym-project-betek",
+  "version": "1.0.0",
+  "description": "Project to manage users and trainers",
+  "main": "index.ts",
+  "scripts": {
+    "dev": "ts-node src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "class-validator": "^0.14.1",
+    "config": "^3.3.12",
+    "express": "^4.21.1",
+    "mysql2": "^3.11.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
